@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Login Form B</string>
     <string name="MyActivity">My Activity</string>
+
+    <string name="welcome_string">,, WELCOME TO</string>
+    <string name="signing_string">STRING\nFPRM ,,</string>
 </resources>

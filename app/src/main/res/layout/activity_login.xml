@@ -7,6 +7,37 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/holo_blue_light"
     tools:context="hassan_mastinoz.loginformb.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeView"
+        android:text="@string/welcome_string"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="5px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/welcomeView"
+        android:layout_marginTop="20dp"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/signing_string"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
 
 </RelativeLayout>
