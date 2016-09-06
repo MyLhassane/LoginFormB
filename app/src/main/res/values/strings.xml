@@ -3,7 +3,7 @@
     <string name="MyActivity">My Activity</string>
 
     <string name="welcome_string">,, WELCOME TO</string>
-    <string name="signing_string">STRING\nFPRM ,,</string>
+    <string name="signing_string">SIGN IN\nFORM ,,</string>
     <string name="username_hint_string">Username</string>
     <string name="password_hint_string">Password</string>
     <string name="signing_btn_string">SIGN IN</string>
