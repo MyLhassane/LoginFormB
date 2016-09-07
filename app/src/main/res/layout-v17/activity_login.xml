@@ -75,7 +75,8 @@
                 android:inputType="textPassword"
                 android:textColor="@android:color/primary_text_dark_nodisable" />
 
-            <Button
+
+            <hassan_mastinoz.loginformb.widget.CustomeButton
                 android:id="@+id/signingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -84,7 +85,8 @@
                 android:text="@string/signing_btn_string"
                 android:textColor="@android:color/primary_text_dark_nodisable"
                 android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                widget:armalite_rifle="AraJozoor-Regular.ttf"/>
 
         </LinearLayout>
 
