@@ -21,7 +21,9 @@
         android:textColor="@android:color/primary_text_dark_nodisable"
         android:textSize="20sp"
         android:textStyle="bold"
-        widget:armalite_rifle="AraJozoor-Regular.ttf"/>
+        widget:armalite_rifle="AraJozoor-Regular.ttf"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,7 +41,8 @@
             android:textColor="@android:color/primary_text_dark_nodisable"
             android:textSize="25sp"
             android:textStyle="bold"
-            widget:armalite_rifle="AraJozoor-Regular.ttf"/>
+            widget:armalite_rifle="AraJozoor-Regular.ttf"
+            android:layout_alignParentRight="true"/>
 
     </LinearLayout>
 
@@ -62,7 +65,8 @@
                 android:layout_height="48dp"
                 android:background="@drawable/ed_bg"
                 android:hint="@string/username_hint_string"
-                android:drawableLeft="@drawable/user_ic"
+                android:drawableRight="@drawable/user_ic"
+                android:gravity="right|center_vertical"
                 android:inputType="textPersonName"
                 android:textColor="@android:color/primary_text_dark_nodisable" />
 
@@ -73,7 +77,8 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/ed_bg"
                 android:hint="@string/password_hint_string"
-                android:drawableLeft="@drawable/password_ic"
+                android:drawableRight="@drawable/password_ic"
+                android:gravity="right|center_vertical"
                 android:inputType="textPassword"
                 android:textColor="@android:color/primary_text_dark_nodisable" />
 
@@ -97,7 +102,6 @@
     <hassan_mastinoz.loginformb.widget.CustomeTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@android:color/holo_blue_dark"
@@ -106,6 +110,8 @@
         android:textColor="@android:color/primary_text_dark_nodisable"
         android:textSize="15sp"
         android:textStyle="bold"
-        widget:armalite_rifle="AraJozoor-Regular.ttf"/>
+        widget:armalite_rifle="AraJozoor-Regular.ttf"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
 
 </RelativeLayout>
