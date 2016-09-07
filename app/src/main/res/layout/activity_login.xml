@@ -78,13 +78,14 @@
             <hassan_mastinoz.loginformb.widget.CustomeButton
                 android:id="@+id/signingBtn"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/btn_bg"
                 android:text="@string/signing_btn_string"
                 android:textColor="@android:color/primary_text_dark_nodisable"
                 android:textSize="20dp"
                 android:textStyle="bold"
+                android:gravity="center"
                 widget:armalite_rifle="AraJozoor-Regular.ttf"/>
 
         </LinearLayout>
