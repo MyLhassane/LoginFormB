@@ -1,5 +1,6 @@
 package hassan_mastinoz.loginformb;
 
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -44,11 +45,6 @@ public class LoginActivity extends AppCompatActivity {
 
         }
 
-        username.setCompoundDrawablePadding(20);
-        password.setCompoundDrawablePadding(20);
-
-
     }
-
 
 }

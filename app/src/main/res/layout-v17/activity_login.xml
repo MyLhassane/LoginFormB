@@ -3,29 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#c84a5e82"
     tools:context="hassan_mastinoz.loginformb.LoginActivity">
 
     <TextView
+        android:id="@+id/welcomeView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/welcomeView"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="5px"
         android:text="@string/welcome_string"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/primary_text_dark_nodisable"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:padding="5px" />
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_below="@id/welcomeView"
         android:layout_marginTop="20dp"
+        android:gravity="center"
         android:weightSum="4">
 
         <TextView
@@ -33,9 +34,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:text="@string/signing_string"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/primary_text_dark_nodisable"
             android:textSize="25sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -43,8 +44,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:weightSum="4"
-        android:gravity="center">
+        android:gravity="center"
+        android:weightSum="4">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -53,30 +54,34 @@
             android:orientation="vertical">
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
                 android:id="@+id/usernameET"
-                android:hint="@string/username_hint_string"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
                 android:background="@drawable/ed_bg"
-                android:textAlignment="gravity" />
+                android:hint="@string/username_hint_string"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/primary_text_dark_nodisable" />
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
                 android:id="@+id/passwordET"
-                android:hint="@string/password_hint_string"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/ed_bg"
+                android:hint="@string/password_hint_string"
                 android:inputType="textPassword"
-                android:background="@drawable/ed_bg" />
+                android:textColor="@android:color/primary_text_dark_nodisable" />
 
             <Button
+                android:id="@+id/signingBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/signingBtn"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_bg"
                 android:text="@string/signing_btn_string"
+                android:textColor="@android:color/primary_text_dark_nodisable"
                 android:textSize="20dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -85,12 +90,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/des_by_string"
-        android:textColor="@android:color/white"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:padding="5px"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="5px"
+        android:text="@string/des_by_string"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
