@@ -1,11 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Login Form B</string>
+    <string name="app_name">حقل تسجيل الدخول ب</string>
     <string name="MyActivity">My Activity</string>
-
-    <string name="welcome_string">,, WELCOME TO</string>
-    <string name="signing_string">SIGN IN\nFORM ,,</string>
-    <string name="username_hint_string">Username</string>
-    <string name="password_hint_string">Password</string>
-    <string name="signing_btn_string">SIGN IN</string>
-    <string name="des_by_string">DESIGNED BY MASTINOZ</string>
+    <string name="des_by_string">تصميم MASTINOZ</string>
+    <string name="password_hint_string">كلمة السر</string>
+    <string name="signing_btn_string">تسجيل الدخول</string>
+    <string name="signing_string">حقل\nتسجيل الدخول ,,</string>
+    <string name="username_hint_string">اسم المستخدم</string>
+    <string name="welcome_string">,, مرحبا بكم في</string>
 </resources>

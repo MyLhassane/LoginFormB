@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login Form B</string>
+    <string name="MyActivity">My Activity</string>
+
+    <string name="welcome_string">,, WELCOME TO</string>
+    <string name="signing_string">SIGN IN\nFORM ,,</string>
+    <string name="username_hint_string">Username</string>
+    <string name="password_hint_string">Password</string>
+    <string name="signing_btn_string">SIGN IN</string>
+    <string name="des_by_string">DESIGNED BY MASTINOZ</string>
+</resources>

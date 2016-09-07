@@ -18,8 +18,7 @@
         android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:background="#964a5e82"
-        android:padding="5px"/>
+        android:padding="5px" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -55,26 +54,20 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="50dp"
                 android:id="@+id/usernameET"
                 android:hint="@string/username_hint_string"
                 android:background="@drawable/ed_bg"
-                android:gravity="center_vertical"
-                android:focusable="true"
-                android:inputType="textPersonName"
-                android:padding="10dp"
-                android:editable="false" />
+                android:textAlignment="gravity" />
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="50dp"
                 android:id="@+id/passwordET"
                 android:hint="@string/password_hint_string"
                 android:layout_marginTop="10dp"
                 android:inputType="textPassword"
-                android:background="@drawable/ed_bg"
-                android:textAlignment="viewEnd"
-                android:padding="10dp" />
+                android:background="@drawable/ed_bg" />
 
             <Button
                 android:layout_width="match_parent"
@@ -96,10 +89,8 @@
         android:textColor="@android:color/white"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:background="#964a5e82"
         android:padding="5px"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
 </RelativeLayout>
