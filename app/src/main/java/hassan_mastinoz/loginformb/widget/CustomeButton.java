@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.Locale;
@@ -13,7 +14,7 @@ import hassan_mastinoz.loginformb.R;
 /**
  * Created by hassan on 9/7/16.
  */
-public class CustomeButton extends TextView {
+public class CustomeButton extends Button {
 
     public CustomeButton(Context context, AttributeSet attrs, int defStyle)
     {

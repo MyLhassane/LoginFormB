@@ -8,4 +8,7 @@
     <string name="signing_btn_string">تسجيل الدخول</string>
     <string name="des_by_string">تصميم MASTINOZ</string>
     <string name="MyActivity">MyActivity</string>
+
+    <string name="error_empty_field">لايمكن ان يكون هذا الحقل فارغ</string>
+    <string name="error_invalid_dada">إسم المستخدم أو كلمة المرور غير صحيح</string>
 </resources>

@@ -8,4 +8,7 @@
     <string name="signing_btn_string">SIGN IN</string>
     <string name="des_by_string">DESIGNED BY MASTINOZ</string>
     <string name="MyActivity">MyActivity</string>
+
+    <string name="error_empty_field">Cannt be empty</string>
+    <string name="error_invalid_dada">Username or Password is in correct</string>
 </resources>
