@@ -40,16 +40,16 @@ public class CustomeTextView extends TextView {
         if (attrs!=null)
         {
             TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.CustomeFont);
-            String fontName = a.getString(R.styleable.CustomeFont_AraJozoor_Regular);
-            if (Locale.getDefault().getDisplayLanguage().toString().equals("Arabic"))
+
+            String fontName = "";
+
+            if (Locale.getDefault().getDisplayLanguage().toString().equals("English"))
             {
-
-
+                fontName = a.getString(R.styleable.CustomeFont_armalite_rifle);
             }
             else
             {
-                a = getContext().obtainStyledAttributes(attrs, R.styleable.CustomeFont);
-                fontName = a.getString(R.styleable.CustomeFont_armalite_rifle);
+                fontName = a.getString(R.styleable.CustomeFont_AraJozoor_Regular);
             }
             if (fontName!=null)
             {

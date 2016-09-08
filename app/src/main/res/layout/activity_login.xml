@@ -16,12 +16,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_blue_dark"
-        android:padding="5px"
+        android:padding="5dp"
         android:text="@string/welcome_string"
         android:textColor="@android:color/primary_text_dark_nodisable"
         android:textSize="20sp"
         android:textStyle="bold"
-        widget:armalite_rifle="AraJozoor-Regular.ttf"/>
+        widget:armalite_rifle="armalite_rifle.ttf"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:textColor="@android:color/primary_text_dark_nodisable"
             android:textSize="25sp"
             android:textStyle="bold"
-            widget:armalite_rifle="AraJozoor-Regular.ttf"/>
+            widget:armalite_rifle="armalite_rifle.ttf"/>
 
     </LinearLayout>
 
@@ -48,7 +48,8 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:gravity="center"
-        android:weightSum="4">
+        android:weightSum="4"
+        android:baselineAligned="false">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -85,10 +86,10 @@
                 android:background="@drawable/btn_bg"
                 android:text="@string/signing_btn_string"
                 android:textColor="@android:color/primary_text_dark_nodisable"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:gravity="center"
-                widget:armalite_rifle="AraJozoor-Regular.ttf"/>
+                widget:armalite_rifle="armalite_rifle.ttf"/>
 
         </LinearLayout>
 
@@ -101,11 +102,11 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@android:color/holo_blue_dark"
-        android:padding="5px"
+        android:padding="5dp"
         android:text="@string/des_by_string"
         android:textColor="@android:color/primary_text_dark_nodisable"
         android:textSize="15sp"
         android:textStyle="bold"
-        widget:armalite_rifle="AraJozoor-Regular.ttf"/>
+        widget:armalite_rifle="armalite_rifle.ttf"/>
 
 </RelativeLayout>
